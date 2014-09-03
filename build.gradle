@@ -1,7 +1,7 @@
 buildscript {
 	repositories {
 			maven {
-				url 'http://artifactory.bnsf.com:8081/artifactory/plugins-release'
+				url 'http://artifactory.myorg.com:8081/artifactory/plugins-release'
 			}
 
 	}
@@ -31,7 +31,7 @@ jar {
 
 repositories {
 			maven {
-				url 'http://artifactory.bnsf.com:8081/artifactory/plugins-release'
+				url 'http://artifactory.myorg.com:8081/artifactory/plugins-release'
 			}
 
 	}
